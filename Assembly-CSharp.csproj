@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\NPCController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/nat/Desktop/Projects/Unity/Unity-Workshop/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

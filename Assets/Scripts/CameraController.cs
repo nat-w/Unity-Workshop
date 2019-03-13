@@ -12,15 +12,16 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // find the player object
         player = GameObject.Find("Player");
+        // calculate the offset between the player and the camera
         offset = transform.position - player.transform.position;
-
     }
 
     // Late Update is called after Update
     void LateUpdate()
     {
-        // moves the camera alongside the player
+        // moves the camera with the player
         transform.position = Vector3.Lerp(transform.position, player.transform.position + offset, 0.1f);
     }
 }
